@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="QA Tester portfolio" name="description"/>
+  <title>
+   Aditia Gusti | QA Tester Portfolio
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="header">
+   <nav class="container">
+    <a class="brand" href="#home">
+     <span class="logo">
+      AGA
+     </span>
+     Aditia Gusti Ananda
+    </a>
+    <button class="menu" id="menu">
+     ☰ Menu
+    </button>
+    <div class="links" id="links">
+     <a href="#home">
+      Home
+     </a>
+     <a href="#about">
+      About
+     </a>
+     <a href="#skills">
+      Skills
+     </a>
+     <a href="#projects">
+      Projects
+     </a>
+     <a href="#reports">
+      Reports
+     </a>
+     <a href="#contact">
+      Contact
+     </a>
+    </div>
+    <a class="btn" download="" href="assets/cv.pdf">
+     Download CV &darr;
+    </a>
+   </nav>
+  </header>
+  <main>
+   <section class="section hero" id="home">
+    <div class="container hero-grid">
+     <div>
+      <span class="eyebrow">
+       ● QA TESTER PORTFOLIO
+      </span>
+      <h2>
+       Hi, I'm
+       <span class="accent">
+        Aditia Gusti Ananda
+       </span>
+       <br/>
+       Quality Assurance Tester
+      </h2>
+      <p>
+       I&rsquo;m a detail-oriented QA Tester who enjoys finding bugs, improving software quality, and making applications more reliable through thoughtful testing.
+      </p>
+      <p class="muted">
+       Focused on manual dan automation testing, test case design, aand clear bug reporting.
+      </p>
+      <div class="actions">
+       <a class="btn primary" href="#projects">
+        View My Projects &nearrow;
+       </a>
+       <a class="btn" download="" href="assets/cv.pdf">
+        Download CV &darr;
+       </a>
+      </div>
+      <div class="stats">
+       <div>
+        <strong>
+         QA Mindset
+        </strong>
+        <span>
+         Quality first
+        </span>
+       </div>
+       <div>
+        <strong>
+         Web and Mobile Apps
+        </strong>
+        <span>
+         Testing focus
+        </span>
+       </div>
+       <div>
+        <strong>
+         Always
+        </strong>
+        <span>
+         Learning
+        </span>
+       </div>
+      </div>
+     </div>
+     <div class="art">
+      <div class="dots">
+       <i>
+       </i>
+       <i>
+       </i>
+       <i>
+       </i>
+       <span style="margin-left:8px;color:#9cb0c9">
+        login.spec.js
+       </span>
+      </div>
+      <div class="code">
+       <span class="purple">
+        test
+       </span>
+       (
+       <span class="green">
+        'login works'
+       </span>
+       , async ({ page }) =&gt; {
+       <br/>
+       &nbsp; await page.goto(
+       <span class="green">
+        '/login'
+       </span>
+       );
+       <br/>
+       &nbsp; await page.fill(
+       <span class="green">
+        '#email'
+       </span>
+       , user);
+       <br/>
+       &nbsp; await page.click(
+       <span class="green">
+        'Submit'
+       </span>
+       );
+       <br/>
+       &nbsp; await expect(page).toHaveURL(/dashboard/);
+       <br/>
+       });
+      </div>
+      <div class="pass">
+       &checkmark; Sample test result &mdash; replace with real evidence
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="about">
+    <div class="container two">
+     <div>
+      <div class="kicker">
+       01 / ABOUT ME
+      </div>
+      <h2>
+       Who I Am
+      </h2>
+      <p>
+       I&rsquo;m a graduate from Nurtanio University, Bandung, informatics engineering study program in 2023. I have experience as a Quality Assurance Engineer. I have good soft skills in communication, able to work under pressure, collaborate, and adapt easily. I&rsquo;m the type of person who is responsible and able to solve problems.
+      </p>
+      <p class="muted">
+       I&rsquo;m continuously learning new tools and techniques to become a stronger QA professional.
+      </p>
+      <p>
+       &target; Indonesia
+       <br/>
+       ✉
+       <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=gustiaditia8%40gmail.com" rel="noopener noreferrer" target="_blank">
+        gustiaditia8@gmail.com
+       </a>
+       <br/>
+       ▣ Open to remote opportunities
+      </p>
+     </div>
+     <div class="card">
+      <div class="kicker">
+       MY GOAL
+      </div>
+      <h3>
+       Build reliable software
+      </h3>
+      <p>
+       Help teams release reliable, user-friendly software through careful manual testing, useful documentation, and automation where it adds value.
+      </p>
+      <div class="tags">
+       <span>
+        Curiosity
+       </span>
+       <span>
+        Attention to detail
+       </span>
+       <span>
+        Teamwork
+       </span>
+        <span>
+        Bug Hunter
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="skills">
+    <div class="container">
+     <div class="kicker">
+      02 / SKILLS &amp; TOOLS
+     </div>
+     <h2>
+      My Testing Toolkit
+     </h2>
+     <p class="muted">
+      Keep only the skills you have used or can confidently explain.
+     </p>
+     <div class="grid4">
+      <div class="skill">
+       <b>
+        &checkmark; Manual & Automation Testing
+       </b>
+       <small>
+        Functional &middot; Regression &middot; Exploratory
+       </small>
+      </div>
+      <div class="skill">
+       <b>
+        ▤ Test Case Design
+       </b>
+       <small>
+        Scenarios &middot; Expected results
+       </small>
+      </div>
+      <div class="skill">
+       <b>
+        &telrec; Bug Reporting
+       </b>
+       <small>
+        Steps &middot; Evidence &middot; Severity
+       </small>
+      </div>
+      <div class="skill">
+       <b>
+        { } API Testing
+       </b>
+       <small>
+        Requests &middot; Responses
+       </small>
+      </div>
+      <div class="skill">
+       <b>
+        Katalon Studio
+       </b>
+       <small>
+        Tool automation
+       </small>
+      </div>
+      <div class="skill">
+       <b>
+        Postman
+       </b>
+       <small>
+        API checks
+       </small>
+      </div>
+      <div class="skill">
+       <b>
+        Web & Mobile Testing
+       </b>
+       <small>
+        Testing Platfrom
+       </small>
+      </div>
+      <div class="skill">
+       <b>
+        Excel / Sheets / JIRA
+       </b>
+       <small>
+        Evidence &middot; Reports
+       </small>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="projects">
+    <div class="container">
+     <div class="kicker">
+      03 / SELECTED WORK
+     </div>
+     <h2>
+      Projects
+     </h2>
+     <p class="muted">
+      My actual project details.
+     </p>
+     <div class="projects">
+      <article class="project">
+        <div class="project-art">
+            <img
+                src="assets/qa-ai-lab.png"
+                alt="Screenshot aplikasi QA AI Lab"
+            >
+        </div>
+       <div class="kicker">
+        PERSONAL MINI PROJECT
+       </div>
+       <h3>
+        QA AI Lab
+       </h3>
+       <p>
+        A tool concept for generating test cases, exploring a target web application, executing browser tests, and exporting results.
+       </p>
+       <div class="tags">
+        <span>
+         Laravel
+        </span>
+        <span>
+         AI
+        </span>
+        <span>
+         Browser Testing
+        </span>
+       </div>
+       <a class="textlink" href="#contact">
+        Ask about project &nearrow;
+       </a>
+      </article>
+      <article class="project">
+        <div class="project-art">
+            <img
+                src="assets/Web-Testing.png"
+                alt="Screenshot web testing"
+            >
+        </div>
+       <div class="kicker">
+        MANUAL TESTING &middot; DUNIA GAMES
+       </div>
+       <h3>
+        Web Application Testing
+       </h3>
+       <p>
+        Sample scenarios for login, form validation, CRUD flows, and negative cases with expected results and execution status.
+       </p>
+       <div class="tags">
+        <span>
+         Test Cases
+        </span>
+        <span>
+         Bug Reports
+        </span>
+        <span>
+         Excel / JIRA
+        </span>
+       </div>
+       <a class="textlink" href="#reports">
+        View templates &nearrow;
+       </a>
+      </article>
+      <article class="project">
+        <div class="project-art">
+            <img
+                src="assets/Katalon-Script.PNG"
+                alt="Screenshot web testing"
+            >
+        </div>
+       <div class="kicker">
+        AUTOMATION TESTING
+       </div>
+       <h3>
+        Tool Testing
+       </h3>
+       <p>
+        Sample script from Katalon Studio tool for automated testing.
+       </p>
+       <div class="tags">
+        <span>
+         Katalon Studio
+        </span>
+        <span>
+         Groovy
+        </span>
+        <span>
+         Gitlab
+        </span>
+       </div>
+       <a class="textlink" href="#contact">
+        Add code/demo link &nearrow;
+       </a>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="reports">
+    <div class="container">
+     <div class="kicker">
+      04 / TESTING REPORTS
+     </div>
+     <h2>
+      Test Cases &amp; Reports
+     </h2>
+     <p class="muted">
+      Starter CSV files can be opened in Excel or Google Sheets.
+     </p>
+     <div class="report-grid">
+      <div class="report">
+       <h3>
+        ▦ Test Case Template
+       </h3>
+       <p>
+        Scenarios, steps, expected result, actual result, and status.
+       </p>
+       <a download="" href="assets/test-case-template.xlsx">
+        Download Excel &darr;
+       </a>
+      </div>
+      <div class="report">
+       <h3>
+        ▤ Execution Report
+       </h3>
+       <p>
+        Track status test case pass, fail, blocked, and not-run.
+       </p>
+       <a download="" href="assets/execution-report-template.xlsx">
+        Download Excel &darr;
+       </a>
+      </div>
+      <div class="report">
+       <h3>
+        ! Bug Report Template
+       </h3>
+       <p>
+        Steps to reproduce, severity, environment, and evidence.
+       </p>
+       <a download="" href="assets/bug-report-template.xlsx">
+        Download CSV &darr;
+       </a>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="contact">
+    <div class="container contact">
+     <div>
+      <div class="kicker">
+       05 / CONTACT
+      </div>
+      <h2>
+       Let&rsquo;s Work Together
+      </h2>
+      <p>
+       I&rsquo;m interested in QA opportunities, collaborations, and learning from software teams. Feel free to reach out.
+      </p>
+      <p>
+       ✉
+       <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=gustiaditia8%40gmail.com" rel="noopener noreferrer" target="_blank">
+        gustiaditia8@gmail.com
+       </a>
+       <br/>
+       in
+       <a href="https://www.linkedin.com/in/aditia-gusti-498929280/" rel="noreferrer" target="_blank">
+        AditiaGustiAnanda
+       </a>
+       <br/>
+       ⌘
+       <a href="https://github.com/" rel="noreferrer" target="_blank">
+        AditiaGusti
+       </a>
+      </p>
+     </div>
+     <form class="form" id="contactForm">
+      <label for="name">
+       Name
+      </label>
+      <input id="name" name="name" placeholder="Your name" required=""/>
+      <label for="email">
+       Email
+      </label>
+      <input id="email" name="email" placeholder="you@example.com" required="" type="email"/>
+      <label for="message">
+       Message
+      </label>
+      <textarea id="message" name="message" placeholder="Tell me about the opportunity..." required="" rows="4"></textarea>
+      <button class="btn primary" type="submit">
+       Prepare Email &nearrow;
+      </button>
+      <small id="formNote">
+       Opens your email app; this site does not store messages.
+      </small>
+     </form>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container">
+    AGA &middot; Aditia Gusti Ananda &middot; QA Tester Portfolio &middot; Built with HTML, CSS &amp; JavaScript
+   </div>
+  </footer>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
+
